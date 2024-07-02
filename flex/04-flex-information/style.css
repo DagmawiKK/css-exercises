@@ -45,7 +45,6 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  outline: 2px black solid;
   width: 200px
 }
 
