@@ -12,7 +12,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  justify-content: center;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
 }
 .content {
   display: flex;
