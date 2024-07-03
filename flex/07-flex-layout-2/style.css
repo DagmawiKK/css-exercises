@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;  
   box-sizing: border-box;
 }
 
@@ -13,8 +12,10 @@ body {
   background: darkmagenta;
   color: white;
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
+  padding-left: 16px;
+  font-weight: 900;
+  font-size: 32px;
 }
 .content {
   display: flex;
@@ -22,24 +23,26 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
-  outline: 2px solid red;
-  gap: 50px;
-  padding: 30px;
-  
+  gap: 48px;
+  padding: 48px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
   flex-basis: 300px;
   flex-shrink: 0;
   background: royalblue;
@@ -51,7 +54,13 @@ ul {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex-basis:300px;
-  height: 200px;
-  width: 300px;
   padding: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+li {
+  padding: 16px;
 }
